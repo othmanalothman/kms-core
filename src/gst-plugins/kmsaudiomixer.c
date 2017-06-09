@@ -28,7 +28,7 @@
 
 #define PLUGIN_NAME "kmsaudiomixer"
 
-#define LATENCY 150             //ms
+#define LATENCY 1700             //ms
 
 #define KMS_AUDIO_MIXER_LOCK(mixer) \
   (g_rec_mutex_lock (&(mixer)->priv->mutex))
